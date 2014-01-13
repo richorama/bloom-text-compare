@@ -1,0 +1,30 @@
+{
+  "name": "bloom-text-compare",
+  "version": "0.0.0",
+  "description": "Node.js module which creates a hash of a word list using a bloom filter, and compares hashes to give you a value for the similarity between the word lists.",
+  "main": "index.js",
+  "dependencies": {
+    "bit-array": "~0.2.2",
+    "bloomfilter": "~0.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richorama/bloom-text-compare.git"
+  },
+  "keywords": [
+    "text",
+    "comparison",
+    "hash",
+    "bloom"
+  ],
+  "author": "richard.astbury",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richorama/bloom-text-compare/issues"
+  },
+  "homepage": "https://github.com/richorama/bloom-text-compare"
+}
